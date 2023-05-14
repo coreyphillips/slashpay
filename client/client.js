@@ -31,7 +31,7 @@ const promptUserInput = async (lasttime) => {
       type: 'input',
       name: 'slashtag',
       message: 'Select a Slashtag to pay',
-      default: lasttime?.slashtag ?? 'slashpay:b5uas6fgceegybkb4weqjynjfq2eqz2uplhgrpzfqesbj2wymyyfnxji',
+      default: lasttime?.slashtag ?? 'slashpay:b5uavfz2f7tr3q3h525mnrin7l37t4kht73tksdcox767xc2x4l47yqy',
     },
     {
       type: 'list',
