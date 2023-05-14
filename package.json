@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/synonymdev/slashpay-istanbul-hackday.git"
+    "url": "git+https://github.com/coreyphillips/slashpay.git"
   },
   "bin": "./index.js",
   "dependencies": {
