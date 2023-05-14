@@ -3,7 +3,9 @@ import { varint } from '@synonymdev/slashtags-common';
 import { base32 } from 'multiformats/bases/base32';
 import b4a from 'b4a';
 
-const URL_PREFIX = 'slashtag:';
+import {
+    URL_PREFIX
+} from './config.js';
 
 /**
  * Convert a public key to a DID

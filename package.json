@@ -1,6 +1,6 @@
 {
   "name": "hackday-slashpay",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -8,20 +8,21 @@
     "type": "git",
     "url": "git+https://github.com/synonymdev/slashpay-istanbul-hackday.git"
   },
-  "bin": {
-    "slashpay": "./client.js"
-  },
+  "bin": "./index.js",
   "dependencies": {
     "@synonymdev/slashtags-common": "^0.2.1",
     "b4a": "^1.3.1",
+    "bottleneck": "^2.19.5",
     "chalk": "^5.0.0",
     "cli-spinners": "^2.6.1",
     "corestore": "^6.0.1-alpha.9",
     "dht-universal": "^0.3.2",
     "hyperswarm": "^3.0.1",
     "inquirer": "^8.2.0",
+    "ln-service": "^56.3.1",
     "log-update": "^5.0.0",
     "multiformats": "^9.6.4",
-    "qrcode": "^1.5.0"
+    "qrcode": "^1.5.0",
+    "uuid": "^9.0.0"
   }
 }
