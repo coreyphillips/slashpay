@@ -109,7 +109,11 @@ const joinSwarmAndUpdateCore = async (core, swarm, useCache) => {
 
     if (core.length === 0) {
       clearInterval(interval); // ensure the interval is cleared in case of an error
-      throw new Error('No slashtags document found for' + slashtag);
+      console.log(
+          '\n>> Error:\n   ',
+          chalk.yellow.bold('Unable to locate the slashpay server using the provided slashtag at this time. The server could be offline or was very recently spun up. Please try again later.'),
+      );
+      process.exit();
     }
     console.timeEnd(timerLabel);
   }

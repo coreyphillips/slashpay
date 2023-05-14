@@ -15,7 +15,7 @@
     "bottleneck": "^2.19.5",
     "chalk": "^5.0.0",
     "cli-spinners": "^2.6.1",
-    "corestore": "^6.0.1-alpha.9",
+    "corestore": "6.0.1-alpha.9",
     "dht-universal": "^0.3.2",
     "hyperswarm": "^3.0.1",
     "inquirer": "^8.2.0",
