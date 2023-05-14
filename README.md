@@ -1,7 +1,5 @@
 # SlashPay
 
-[Read more](https://docs.google.com/document/d/10rgPbDMer6uL7L8QZ5ve-KU_pkI_YSwSO4dmzUmjU6s/edit)
-
 ## Install
 
 ```
